@@ -1,0 +1,5 @@
+break * main + 40
+break * main + 57
+break * readn + 187
+break * 0x401040
+

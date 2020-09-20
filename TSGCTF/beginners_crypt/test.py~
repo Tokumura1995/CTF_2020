@@ -1,0 +1,2 @@
+assert(len(open('flag.txt', 'rb').read()) <= 50)
+print(str(int.from_bytes(open('flag.txt', 'rb').read(), byteorder='big') << 10000))

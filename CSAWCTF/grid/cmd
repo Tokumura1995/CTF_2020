@@ -1,0 +1,4 @@
+file ./grid
+target remote localhost:1234
+b *0x400b40
+b *0x400bbf

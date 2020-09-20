@@ -1,0 +1,8 @@
+file ./beginners_pwn
+target remote localhost:1234
+b * main + 40
+b * main + 57
+b * readn + 187
+b * 0x401040
+c
+
