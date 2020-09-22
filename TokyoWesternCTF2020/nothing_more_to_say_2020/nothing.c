@@ -15,7 +15,6 @@ void read_string(char* buf, size_t length) {
     if (n == -1)
         exit(1);
     buf[n] = '\0';
-}
 
 int main(void) {
     char buf[0x100]; 
